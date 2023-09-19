@@ -1,0 +1,292 @@
+/* Animation */
+@-webkit-keyframes 
+pulsate {  0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ opacity: 0.8;
+}
+ 45% {
+ -webkit-transform: scale(1.75);
+ transform: scale(1.75);
+ opacity: 0;
+}
+}
+@keyframes 
+pulsate {  0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ opacity: 0.8;
+}
+ 45% {
+ -webkit-transform: scale(1.75);
+ transform: scale(1.75);
+ opacity: 0;
+}
+}
+
+body { margin: 0; }
+
+/* Hotspot */
+
+#hotspotImg {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#hotspotImg .img-responsive { max-width: 100%; }
+
+#hotspotImg .hot-spot {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+#hotspotImg .map-icon i{
+  font-size:48px;
+}
+
+#hotspotImg .asylum .map-icon{
+  color: #A91007;
+}
+#hotspotImg .podcast .map-icon,#hotspotImg .nairobi .map-icon{
+  color: #E87310;
+}
+#hotspotImg .film-area .map-icon{
+  color: #16A01A;
+}
+#hotspotImg .webinars .map-icon,#hotspotImg .photography .map-icon,
+#hotspotImg .poets .map-icon,#hotspotImg .book .map-icon
+{
+  color: #B31A22;
+}
+#hotspotImg .music .map-icon,#hotspotImg .games .map-icon,#hotspotImg .art .map-icon{
+  color: #124A96;
+}
+#hotspotImg .vendor .map-icon{ 
+  color:   #052652
+}
+#hotspotImg .djs-corner .map-icon{ 
+ color:    #BE1D74
+ }
+ #hotspotImg .well .map-icon{ 
+  color:     #124A96;
+  }
+  #hotspotImg .mtura-guy .map-icon{ 
+    color:      #1B9124;
+    }
+    #hotspotImg .kiddo .map-icon{ 
+      color:       #A016A0;
+      }
+
+   
+ #hotspotImg .webinars{
+  top: 72%;
+  left: 72%;
+  }
+
+#hotspotImg .asylum{
+  top: 12%;
+  left: 17%;
+}
+
+#hotspotImg .podcast{
+  top: 12%;
+left: 83%;
+  }
+  #hotspotImg .vendor{
+    top: 5%;
+    left: 39%;
+    }
+  #hotspotImg .photography{
+    top: 55%;
+    left: 75%;
+    }
+  #hotspotImg .film-area{
+    top: 62%;
+    left: 89%;
+    }
+    #hotspotImg .djs-corner{
+      top: 31%;
+      left: 35%;
+      }
+      #hotspotImg .art{
+        top: 52%;
+        left: 28%;
+        }
+    #hotspotImg .music{
+      top: 40%;
+      left: 67%;
+      }
+      #hotspotImg .games{
+        top: 42%;
+        left: 7%;
+        }
+
+      #hotspotImg .poets{
+        top: 62%;
+        left: 64%;
+        }
+        #hotspotImg .book{
+          top: 40%;
+          left: 84%;
+          }
+      #hotspotImg .well{
+        top: 15%;
+        left: 59%;
+        }
+        #hotspotImg .nairobi{
+          top: 25%;
+          left: 58%;
+          }
+
+    #hotspotImg .mtura-guy{
+      top: 10%;
+        left: 51%;
+      }
+      #hotspotImg .kiddo{
+        top: 56%;
+        left: 47%;
+        }
+   
+  
+#hotspotImg .hot-spot .village{
+ margin-left: 12px;
+}
+
+#hotspotImg .hot-spot .w3-btn{
+  margin-left: 16px;
+  margin-top: -35px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+ }
+
+ #hotspotImg .asylum .w3-btn{ 
+  background-color: #A91007;
+ }
+
+ #hotspotImg .podcast .w3-btn, #hotspotImg .nairobi .w3-btn{ 
+  background-color: #E87310;
+ }
+
+ #hotspotImg .film-area .w3-btn{ 
+  background-color:  #16A01A;
+ }
+ 
+ #hotspotImg .webinars .w3-btn, #hotspotImg .photography .w3-btn
+ ,#hotspotImg .book .w3-btn,#hotspotImg .poets .w3-btn{ 
+  background-color:  #B31A22;
+ }
+
+ #hotspotImg .music .w3-btn,#hotspotImg .games .w3-btn,#hotspotImg .art .w3-btn{ 
+  background-color:   #124A96;
+ }
+ #hotspotImg .vendor .w3-btn{ 
+  background-color:   #052652;
+ }
+ #hotspotImg .djs-corner .w3-btn{ 
+  background-color:    #BE1D74
+ }
+ #hotspotImg .well .w3-btn{ 
+  background-color:    #124A96;
+ }
+ #hotspotImg .mtura-guy .w3-btn{ 
+  background-color:    #1B9124;
+ }
+
+ #hotspotImg .kiddo .w3-btn{ 
+  background-color:   #A016A0;
+ }
+
+
+
+.bounce {
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+@media (max-width:1680px) {
+  
+}
+
+@media (max-width:1600px) {
+
+}
+
+@media (max-width:1440px) {
+
+}
+
+@media (max-width:1180px) {
+  .hero-text h1 { 
+    font-size: 15em;
+  }
+}
+
+@media (max-width:1024px) {
+  .hero-text h1 { 
+    font-size: 13em;
+  }
+  .hero-text .w3-panel h2 {
+    font-size: 2.5em;
+  }
+  .radio-section{
+    position:absolute;
+    top:80%;
+    left: 60%;
+  }
+}
+
+
+@media (max-width:992px) {
+  /* .artists{ 
+    min-height: 150%
+  } */
+}
+@media (max-width:640px) {
+  #hotspotImg .map-icon i{
+    font-size:35px;
+  }
+  #hotspotImg .hot-spot .w3-btn{
+    font-size: 10px;
+   }
+}
+
+@media (max-width:480px) {
+  #hotspotImg .map-icon i{
+    font-size:28px;
+  }
+  #hotspotImg .hot-spot .w3-btn{
+    font-size: 8px;
+   }
+}

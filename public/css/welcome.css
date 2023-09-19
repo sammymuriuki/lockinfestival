@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebas_neue/BebasNeue\ Bold.otf');
+    src: url('../fonts/bebas_neue/BebasNeue\ Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  
+  }
+  
+    .welcome-lockin{
+      position: relative;
+    }
+    
+  .welcome-lockin img{
+    width: 100%;
+  }
+  
+  .countdown-block {
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+    height: 90%;
+    animation: shake 1.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .countdown-block h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .countdown-block .date-inner{
+    margin-top: 45%;
+    border: 1px white solid;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    /* border-radius: 5px; */
+  }
+  .countdown-block .date-inner:hover{
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .countdown-block .date-title{
+   font-size: 20px;
+   font-weight: 500;
+  }
+  .countdown-block .date-inner p{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+    .about-text {
+      position: relative;
+      left: 15%;
+      right: 15%;
+      color: black;
+      width: 70%;
+    }
+  
+    .about-text .w3-panel h2 {
+      font-family: 'Montserrat';
+      font-size: 1em;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .w3-ol li{
+    font-weight: 550;
+  }
+  
+  
+  .about-text input{
+    border-radius: 20px;
+  width: 50%;
+  }
+  
+  
+  .submit-btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px #ACA5A5 solid;
+    background-color: #000;
+    color:#ACA5A5;
+    padding: 5px;
+    font-size: 10px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .btn-section{
+    position: relative;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-btn{
+    margin-left: 4.5em;
+    cursor: pointer;
+  }
+  
+  .partners-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* position: absolute; */
+  }
+  
+  .partner-logo{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-section{
+    margin-top: 10px;;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  @media (max-width:1920px) {
+    .about-text {
+      top: 39%;
+    }
+  }
+  @media (max-width:1440px) {
+    .about-text {
+      top: 35%;
+    }
+  }
+  @media (max-width:1280px) {
+    .about-text {
+      top: 32%;
+    }
+  }
+  
+  @media (max-width:1024px) {
+  
+    .about-text {
+      top: 28%;
+    }
+  
+    .social-btn{
+      margin-left: 4em;
+    }
+  }
+  
+  
+  
+  @media (max-width:900px) {
+    .about-text {
+      top: 24%;
+    }
+    .countdown-block .date-inner{
+      margin-top: 40%;
+      padding: 8px;
+    }
+  
+  .countdown-block {
+    bottom: 20%;
+    height: 70%;
+    width: 100%;
+    right: 0%;
+  }
+    
+  }
+  
+  @media (max-width:800px) {
+    .about-text {
+      top: 19%;
+    }
+    /* .btn-section{
+      top: 80%;
+      left: 55%;
+    } */
+    .hero-text input{
+     width: 90%;
+     float: right;
+    }
+  } 
+  
+  @media (max-width:720px) {
+   
+    .about-text {
+      top: 16%;
+    }
+   
+    /* .btn-section{
+      top: 90%;
+      left: 10%;
+    } */
+    .social-btn{
+      margin-left: 5.5em;
+    }
+  }
+  
+  @media (max-width:620px) {
+    .countdown-block .date-inner{
+      padding: 5px;
+    }
+   
+    .countdown-block .date-title{
+     font-size: 17px;
+     font-weight: 500;
+    }
+    .countdown-block .date-inner p{
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+  
+  @media (max-width:600px) {
+    /* .countdown-block .date-inner{
+      padding: 2px;
+      margin-top: 2%;
+    }
+   
+    .countdown-block .date-title{
+     font-size: 12px;
+    }
+    .countdown-block h4{
+      font-size: 20px;
+    }
+  
+    .countdown-block .date-inner p{
+      font-size: 15px;
+      font-weight: 600;
+    } */
+    .countdown-block .date-inner{
+      margin-top: 20%;
+      padding: 8px;
+    }
+  
+  .countdown-block {
+    bottom: 20%;
+    height: 70%;
+    width: 100%;
+    right: 0%;
+  }
+  
+    .about-text {
+      top: 14%;
+      left: 10%;
+      right: 10%;
+      width: 80%;
+    }
+    .btn-section{
+      /* top: 85%; */
+      left: 0;
+    }
+   
+  }
+  @media (max-width:520px) {
+    
+    .btn-section{
+      left: 0;
+    }
+    .social-btn{
+    margin-left: 3em;
+  }
+  /* .countdown-block .date-inner{
+    padding: 1px;
+    margin-top: 1%;
+  }
+  
+  .countdown-block .date-title{
+   font-size: 10px;
+  }
+  .countdown-block h4{
+    font-size: 20px;
+  }
+  
+  .countdown-block .date-inner p{
+    font-size: 10px;
+    font-weight: 600;
+  } */
+  
+  }
+  
+  @media (max-width:480px) {
+    
+    .about-text {
+      top: 14%;
+      left: 5%;
+      right:5%;
+      width: 90%;
+    }
+  
+  }
+  
+  @media (max-width:420px) {
+    .countdown-block {
+      bottom: 20%;
+      height: 70%;
+    }
+  /* .countdown-block .date-inner{
+    padding: 1px;
+    margin-bottom: 2px;
+  }
+  
+  .countdown-block .date-title{
+   font-size: 8px;
+  }
+  .countdown-block h4{
+    font-size: 15px;
+  }
+  
+  .countdown-block .date-inner p{
+    font-size: 8px;
+    font-weight: 600;
+  } */
+  }
+  
+  @media (max-width:380px) {
+  
+    .about-text {
+      top: 15%;
+      left: 3%;
+      right:3%;
+      width: 94%;
+    }
+    .about-text .w3-panel p,.about-text .w3-panel  ol{
+      font-size: 13px
+    
+  }
+  
+    .social-btn{
+      margin-left: 5.5em;
+      font-size: 10px;
+    }
+  }
+  
+    @media (max-width:320px) {
+     
+      .btn-section{
+       
+        left: -15%;
+      }
+      .social-btn{
+        margin-left: 6.5em;
+  
+      }
+  } 
